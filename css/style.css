@@ -11,7 +11,7 @@
     }
 
     .container{
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
     }
 
@@ -41,3 +41,30 @@
     }
 
 /* end header */
+
+/* start main */
+
+    .row-main{
+        max-width: 100%;
+        display: flex;
+    }
+
+    .col-main{
+        width: calc(100% / 3);
+    }
+
+    .content-main{
+        margin: 40px 15px 0 15px;
+    }
+
+    .content-main img{
+        width: 100%;
+    }
+
+    .price{
+        color: red;
+    }
+
+    .price1{
+        text-decoration: line-through;
+    }
