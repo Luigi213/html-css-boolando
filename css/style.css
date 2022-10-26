@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* start header */
+
+    header{
+        background-color: rgba(255,105,0,255);
+    }
+
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .row-header{
+        height: 50px;
+    }
+    
+    .col-header{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .image{
+        width: 100px;
+    }
+
+    .symbol{
+        font-size: small;
+        color: white;
+    }
+
+/* end header */
