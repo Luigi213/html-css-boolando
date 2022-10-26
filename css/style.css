@@ -11,12 +11,12 @@
     }
 
     .container{
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
 
     .row-header{
-        height: 50px;
+        height: 70px;
     }
     
     .col-header{
@@ -29,18 +29,38 @@
     a{
         text-decoration: none;
         color: white;
+        font-size: 20px;
+        margin-right: 5px ;
     }
 
     .image{
-        width: 100px;
+        width: 150px;
+    }
+
+    i{
+        margin-left: 5px;
     }
 
     .symbol{
-        font-size: small;
+        font-size: 17px;
         color: white;
     }
 
 /* end header */
+
+/* color */
+
+.red{
+    background-color: red;
+}
+
+.text-white{
+    color: white;
+}
+
+.green{
+    background: green;
+}
 
 /* start main */
 
@@ -59,6 +79,38 @@
 
     .content-main img{
         width: 100%;
+    }
+
+    .photo{
+        position: relative;
+    }
+    
+    .overlay{
+        opacity: 0;
+        position: absolute;
+        top: 0;
+    }
+
+    .photo:hover .overlay{
+        opacity: 1;
+    }
+
+    .position-absolute{
+        position: absolute;
+        bottom: 50px;
+    }
+
+    .heart{
+        position: absolute;
+        top: 10px;
+        right: 0;
+        font-size: 40px;
+        padding: 5px 15px;
+        background-color: white;
+    }
+
+    .background{
+        padding: 5px 10px;
     }
 
     .price{
