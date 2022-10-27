@@ -117,12 +117,16 @@ span.background{
         opacity: 1;
     }
 
+    .heart-red{
+        color: red;
+    }
+
     .position-absolute{
         position: absolute;
         bottom: 50px;
     }
 
-    .heart{
+    .heart, .heart-red{
         position: absolute;
         top: 10px;
         right: 0;
