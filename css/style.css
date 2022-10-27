@@ -12,6 +12,11 @@
 
     header{
         background-color: rgba(255,105,0,255);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
     }
 
     .container{
@@ -75,6 +80,10 @@ span.background{
 }
 
 /* start main */
+
+    main{
+        margin: 125px 0;
+    }
 
     .row-main{
         max-width: 100%;
